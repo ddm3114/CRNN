@@ -55,11 +55,5 @@
 * 在使用预测脚本时，要将`train_weights`设置为你自己生成的权重路径。
 * 使用validation文件时，注意确保你的验证集或者测试集中必须包含每个类别的目标，并且使用时只需要修改`--num-classes`、`--data-path`和`--weights-path`即可，其他代码尽量不要改动
 
-## 如果对Faster RCNN原理不是很理解可参考我的bilibili
-* https://b23.tv/sXcBSP
-
-## 进一步了解该项目，以及对Faster RCNN代码的分析可参考我的bilibili
-* https://b23.tv/HvMiDy
-
 ## Faster RCNN框架图
 ![Faster R-CNN](fasterRCNN.png) 
